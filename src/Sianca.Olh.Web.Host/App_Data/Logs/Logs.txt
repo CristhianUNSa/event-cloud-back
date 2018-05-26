@@ -1,0 +1,525 @@
+DEBUG 2018-05-26 12:40:22,418 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-05-26 12:40:22,493 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-05-26 12:40:22,552 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Sianca.Olh.Web.Host.Startup.OlhWebHostModule, Sianca.Olh.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-26 12:40:22,559 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Sianca.Olh.OlhWebCoreModule, Sianca.Olh.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-26 12:40:22,559 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Sianca.Olh.OlhApplicationModule, Sianca.Olh.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-26 12:40:22,561 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Sianca.Olh.OlhCoreModule, Sianca.Olh.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-26 12:40:22,561 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-26 12:40:22,562 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-26 12:40:22,563 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-26 12:40:22,563 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-26 12:40:22,565 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Sianca.Olh.EntityFrameworkCore.OlhEntityFrameworkModule, Sianca.Olh.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-26 12:40:22,566 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-26 12:40:22,566 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-26 12:40:22,567 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-26 12:40:22,567 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-26 12:40:22,568 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-26 12:40:22,569 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-26 12:40:22,574 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-05-26 12:40:22,734 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-26 12:40:22,734 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-26 12:40:22,734 [1    ] o.Configuration.LanguageManagementConfig - Converted Olh (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-26 12:40:22,734 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-26 12:40:23,461 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Sianca.Olh.EntityFrameworkCore.OlhDbContext, Sianca.Olh.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-26 12:40:24,239 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-05-26 12:40:24,320 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-05-26 12:40:24,388 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-05-26 12:40:24,422 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Olh
+DEBUG 2018-05-26 12:40:24,462 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-05-26 12:40:24,512 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-05-26 12:40:24,579 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2018-05-26 12:40:24,580 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Sianca.Olh.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-05-26 12:40:24,586 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Sianca.Olh.Users.Dto.CreateUserDto
+DEBUG 2018-05-26 12:40:24,587 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Sianca.Olh.Users.Dto.UserDto
+DEBUG 2018-05-26 12:40:24,587 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Sianca.Olh.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-05-26 12:40:24,587 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Sianca.Olh.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-05-26 12:40:24,587 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Sianca.Olh.Roles.Dto.CreateRoleDto
+DEBUG 2018-05-26 12:40:24,587 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Sianca.Olh.Roles.Dto.PermissionDto
+DEBUG 2018-05-26 12:40:24,587 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Sianca.Olh.Roles.Dto.RoleDto
+DEBUG 2018-05-26 12:40:24,588 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Sianca.Olh.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-05-26 12:40:24,588 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Sianca.Olh.MultiTenancy.Dto.TenantDto
+FATAL 2018-05-26 12:40:38,369 [1    ] Abp.AbpBootstrapper                      - System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Olh" requested by the login. The login failed.
+Login failed for user 'DESKTOP-UOQ2IO9\Cristhian'.
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\DbContextEfCoreTransactionStrategy.cs:line 38
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 116
+   at Sianca.Olh.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in C:\Proyectos\sianca\Sianca.Olh\aspnet-core\src\Sianca.Olh.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 39
+   at Sianca.Olh.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in C:\Proyectos\sianca\Sianca.Olh\aspnet-core\src\Sianca.Olh.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 17
+   at Sianca.Olh.EntityFrameworkCore.OlhEntityFrameworkModule.PostInitialize() in C:\Proyectos\sianca\Sianca.Olh\aspnet-core\src\Sianca.Olh.EntityFrameworkCore\EntityFrameworkCore\OlhEntityFrameworkModule.cs:line 46
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.AbpBootstrapper.Initialize() in D:\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:line 155
+ClientConnectionId:ad61ac60-8a00-4e07-9d3d-eea11adfd666
+Error Number:4060,State:1,Class:11
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Olh" requested by the login. The login failed.
+Login failed for user 'DESKTOP-UOQ2IO9\Cristhian'.
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\DbContextEfCoreTransactionStrategy.cs:line 38
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 116
+   at Sianca.Olh.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in C:\Proyectos\sianca\Sianca.Olh\aspnet-core\src\Sianca.Olh.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 39
+   at Sianca.Olh.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in C:\Proyectos\sianca\Sianca.Olh\aspnet-core\src\Sianca.Olh.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 17
+   at Sianca.Olh.EntityFrameworkCore.OlhEntityFrameworkModule.PostInitialize() in C:\Proyectos\sianca\Sianca.Olh\aspnet-core\src\Sianca.Olh.EntityFrameworkCore\EntityFrameworkCore\OlhEntityFrameworkModule.cs:line 46
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.AbpBootstrapper.Initialize() in D:\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:line 155
+ClientConnectionId:ad61ac60-8a00-4e07-9d3d-eea11adfd666
+Error Number:4060,State:1,Class:11
+WARN  2018-05-26 12:40:38,372 [6    ] Abp.BackgroundJobs.BackgroundJobManager  - System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Olh" requested by the login. The login failed.
+Login failed for user 'DESKTOP-UOQ2IO9\Cristhian'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\DbContextEfCoreTransactionStrategy.cs:line 38
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 116
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.get_Table() in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Repositories\EfCoreRepositoryBaseOfTEntityAndTPrimaryKey.cs:line 39
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.GetAllIncluding(Expression`1[] propertySelectors) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Repositories\EfCoreRepositoryBaseOfTEntityAndTPrimaryKey.cs:line 88
+   at Castle.Proxies.Invocations.IRepository`2_GetAll_3.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 68
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.IRepository`2Proxy_1.GetAll()
+   at Abp.BackgroundJobs.BackgroundJobStore.GetWaitingJobsAsync(Int32 maxResultCount) in D:\Github\aspnetboilerplate\src\Abp.Zero.Common\BackgroundJobs\BackgroundJobStore.cs:line 36
+   at Castle.Proxies.Invocations.BackgroundJobStore_GetWaitingJobsAsync.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 83
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync(Int32 maxResultCount)
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at Nito.AsyncEx.AsyncContext.Run[TResult](Func`1 action)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork() in D:\Github\aspnetboilerplate\src\Abp\BackgroundJobs\BackgroundJobManager.cs:line 93
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e) in D:\Github\aspnetboilerplate\src\Abp\Threading\BackgroundWorkers\PeriodicBackgroundWorkerBase.cs:line 48
+ClientConnectionId:ad61ac60-8a00-4e07-9d3d-eea11adfd666
+Error Number:4060,State:1,Class:11
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Olh" requested by the login. The login failed.
+Login failed for user 'DESKTOP-UOQ2IO9\Cristhian'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\DbContextEfCoreTransactionStrategy.cs:line 38
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 116
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.get_Table() in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Repositories\EfCoreRepositoryBaseOfTEntityAndTPrimaryKey.cs:line 39
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.GetAllIncluding(Expression`1[] propertySelectors) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Repositories\EfCoreRepositoryBaseOfTEntityAndTPrimaryKey.cs:line 88
+   at Castle.Proxies.Invocations.IRepository`2_GetAll_3.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 68
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.IRepository`2Proxy_1.GetAll()
+   at Abp.BackgroundJobs.BackgroundJobStore.GetWaitingJobsAsync(Int32 maxResultCount) in D:\Github\aspnetboilerplate\src\Abp.Zero.Common\BackgroundJobs\BackgroundJobStore.cs:line 36
+   at Castle.Proxies.Invocations.BackgroundJobStore_GetWaitingJobsAsync.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 83
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync(Int32 maxResultCount)
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at Nito.AsyncEx.AsyncContext.Run[TResult](Func`1 action)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork() in D:\Github\aspnetboilerplate\src\Abp\BackgroundJobs\BackgroundJobManager.cs:line 93
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e) in D:\Github\aspnetboilerplate\src\Abp\Threading\BackgroundWorkers\PeriodicBackgroundWorkerBase.cs:line 48
+ClientConnectionId:ad61ac60-8a00-4e07-9d3d-eea11adfd666
+Error Number:4060,State:1,Class:11
+FATAL 2018-05-26 12:40:38,467 [1    ] soft.AspNetCore.Hosting.Internal.WebHost - Application startup exception
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "Olh" requested by the login. The login failed.
+Login failed for user 'DESKTOP-UOQ2IO9\Cristhian'.
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\DbContextEfCoreTransactionStrategy.cs:line 38
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 116
+   at Sianca.Olh.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in C:\Proyectos\sianca\Sianca.Olh\aspnet-core\src\Sianca.Olh.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 39
+   at Sianca.Olh.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in C:\Proyectos\sianca\Sianca.Olh\aspnet-core\src\Sianca.Olh.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 17
+   at Sianca.Olh.EntityFrameworkCore.OlhEntityFrameworkModule.PostInitialize() in C:\Proyectos\sianca\Sianca.Olh\aspnet-core\src\Sianca.Olh.EntityFrameworkCore\EntityFrameworkCore\OlhEntityFrameworkModule.cs:line 46
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.AbpBootstrapper.Initialize() in D:\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:line 160
+   at Abp.AspNetCore.AbpApplicationBuilderExtensions.InitializeAbp(IApplicationBuilder app) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\AbpApplicationBuilderExtensions.cs:line 67
+   at Abp.AspNetCore.AbpApplicationBuilderExtensions.UseAbp(IApplicationBuilder app, Action`1 optionsAction) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\AbpApplicationBuilderExtensions.cs:line 38
+   at Sianca.Olh.Web.Host.Startup.Startup.Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory) in C:\Proyectos\sianca\Sianca.Olh\aspnet-core\src\Sianca.Olh.Web.Host\Startup\Startup.cs:line 102
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Hosting.ConventionBasedStartup.Configure(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+ClientConnectionId:ad61ac60-8a00-4e07-9d3d-eea11adfd666
+Error Number:4060,State:1,Class:11
+DEBUG 2018-05-26 12:42:38,706 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-05-26 12:42:38,755 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-05-26 12:42:38,823 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Sianca.Olh.Web.Host.Startup.OlhWebHostModule, Sianca.Olh.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-26 12:42:38,827 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Sianca.Olh.OlhWebCoreModule, Sianca.Olh.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-26 12:42:38,828 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Sianca.Olh.OlhApplicationModule, Sianca.Olh.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-26 12:42:38,829 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Sianca.Olh.OlhCoreModule, Sianca.Olh.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-26 12:42:38,830 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-26 12:42:38,830 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-26 12:42:38,831 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-26 12:42:38,832 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-26 12:42:38,833 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Sianca.Olh.EntityFrameworkCore.OlhEntityFrameworkModule, Sianca.Olh.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-26 12:42:38,834 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-26 12:42:38,835 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-26 12:42:38,836 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-26 12:42:38,837 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-26 12:42:38,837 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-26 12:42:38,838 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-26 12:42:38,844 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-05-26 12:42:38,994 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-26 12:42:38,994 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-26 12:42:38,994 [1    ] o.Configuration.LanguageManagementConfig - Converted Olh (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-26 12:42:38,994 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-26 12:42:39,596 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Sianca.Olh.EntityFrameworkCore.OlhDbContext, Sianca.Olh.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-26 12:42:40,375 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-05-26 12:42:40,464 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-05-26 12:42:40,539 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-05-26 12:42:40,575 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Olh
+DEBUG 2018-05-26 12:42:40,627 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-05-26 12:42:40,679 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-05-26 12:42:40,749 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2018-05-26 12:42:40,749 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Sianca.Olh.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-05-26 12:42:40,756 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Sianca.Olh.Users.Dto.CreateUserDto
+DEBUG 2018-05-26 12:42:40,757 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Sianca.Olh.Users.Dto.UserDto
+DEBUG 2018-05-26 12:42:40,757 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Sianca.Olh.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-05-26 12:42:40,757 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Sianca.Olh.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-05-26 12:42:40,757 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Sianca.Olh.Roles.Dto.CreateRoleDto
+DEBUG 2018-05-26 12:42:40,757 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Sianca.Olh.Roles.Dto.PermissionDto
+DEBUG 2018-05-26 12:42:40,757 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Sianca.Olh.Roles.Dto.RoleDto
+DEBUG 2018-05-26 12:42:40,757 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Sianca.Olh.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-05-26 12:42:40,757 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Sianca.Olh.MultiTenancy.Dto.TenantDto
+INFO  2018-05-26 12:42:46,622 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2018-05-26 12:42:48,635 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Sianca.Olh.Web.Host.Controllers.HomeController.Index (Sianca.Olh.Web.Host) with arguments ((null)) - ModelState is Valid
+INFO  2018-05-26 12:42:48,735 [5    ] Core.Mvc.Internal.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2018-05-26 12:42:48,766 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sianca.Olh.Web.Host.Controllers.HomeController.Index (Sianca.Olh.Web.Host) in 569.9043ms
+INFO  2018-05-26 12:42:48,884 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2309.8885ms 302 
+INFO  2018-05-26 12:42:48,925 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger  
+INFO  2018-05-26 12:42:48,942 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 17.19ms 301 
+INFO  2018-05-26 12:42:48,950 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/  
+INFO  2018-05-26 12:42:48,997 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 46.402ms 200 text/html
+INFO  2018-05-26 12:42:49,034 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2018-05-26 12:42:49,047 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2018-05-26 12:42:49,067 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2018-05-26 12:42:49,082 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2018-05-26 12:42:49,082 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'C:\Proyectos\sianca\Sianca.Olh\aspnet-core\src\Sianca.Olh.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2018-05-26 12:42:49,082 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2018-05-26 12:42:49,117 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2018-05-26 12:42:49,118 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'C:\Proyectos\sianca\Sianca.Olh\aspnet-core\src\Sianca.Olh.Web.Host\wwwroot\swagger\ui\abp.swagger.js'
+INFO  2018-05-26 12:42:49,128 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 80.4957ms 200 application/javascript
+INFO  2018-05-26 12:42:49,143 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 108.7858ms 200 text/css
+INFO  2018-05-26 12:42:49,148 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 30.7201ms 200 application/javascript
+INFO  2018-05-26 12:42:49,184 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 117.1507ms 200 application/javascript
+INFO  2018-05-26 12:42:49,240 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2018-05-26 12:42:49,242 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2018-05-26 12:42:49,258 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 17.4396ms 200 application/javascript
+INFO  2018-05-26 12:42:49,907 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2018-05-26 12:42:49,909 [13   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: No SecurityTokenValidator available for token: null
+INFO  2018-05-26 12:42:49,989 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/favicon-32x32.png  
+INFO  2018-05-26 12:42:49,992 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2018-05-26 12:42:49,992 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3.7297ms 200 image/png
+INFO  2018-05-26 12:42:50,009 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/favicon-16x16.png  
+INFO  2018-05-26 12:42:50,011 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+INFO  2018-05-26 12:42:50,011 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.7716ms 200 image/png
+INFO  2018-05-26 12:42:50,435 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 527.3197ms 200 application/json
+INFO  2018-05-26 12:52:48,168 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2018-05-26 12:52:48,189 [3    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-26 12:52:48,198 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 30.6517ms 204 
+INFO  2018-05-26 12:52:48,235 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll application/json 
+INFO  2018-05-26 12:52:48,237 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-26 12:52:48,239 [13   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: No SecurityTokenValidator available for token: null
+INFO  2018-05-26 12:52:48,305 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-26 12:52:48,315 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) with arguments ((null)) - ModelState is Valid
+INFO  2018-05-26 12:52:48,893 [11   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value Abp.Web.Models.AjaxResponse.
+INFO  2018-05-26 12:52:48,976 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 671.0351ms
+INFO  2018-05-26 12:52:48,977 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 741.7733ms 200 application/json; charset=utf-8
+INFO  2018-05-26 12:52:49,003 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2018-05-26 12:52:49,003 [21   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-26 12:52:49,004 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.7583ms 204 
+INFO  2018-05-26 12:52:49,017 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations application/json 
+INFO  2018-05-26 12:52:49,018 [21   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-26 12:52:49,050 [21   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-26 12:52:49,080 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Sianca.Olh.Sessions.SessionAppService.GetCurrentLoginInformations (Sianca.Olh.Application) with arguments ((null)) - ModelState is Valid
+INFO  2018-05-26 12:52:49,216 [21   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-26 12:52:49,252 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sianca.Olh.Sessions.SessionAppService.GetCurrentLoginInformations (Sianca.Olh.Application) in 201.686ms
+INFO  2018-05-26 12:52:49,252 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 234.8694ms 200 application/json; charset=utf-8
+INFO  2018-05-26 12:53:00,718 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Account/IsTenantAvailable  
+INFO  2018-05-26 12:53:00,719 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-26 12:53:00,719 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.0495ms 204 
+INFO  2018-05-26 12:53:00,734 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Account/IsTenantAvailable application/json 25
+INFO  2018-05-26 12:53:00,735 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-26 12:53:00,774 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-26 12:53:01,026 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Sianca.Olh.Authorization.Accounts.AccountAppService.IsTenantAvailable (Sianca.Olh.Application) with arguments (Sianca.Olh.Authorization.Accounts.Dto.IsTenantAvailableInput) - ModelState is Valid
+INFO  2018-05-26 12:53:01,061 [10   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-26 12:53:01,064 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sianca.Olh.Authorization.Accounts.AccountAppService.IsTenantAvailable (Sianca.Olh.Application) in 289.3035ms
+INFO  2018-05-26 12:53:01,073 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 339.1028ms 200 application/json; charset=utf-8
+INFO  2018-05-26 12:53:01,938 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2018-05-26 12:53:01,938 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-26 12:53:01,938 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.5614ms 204 
+INFO  2018-05-26 12:53:02,011 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll application/json 
+INFO  2018-05-26 12:53:02,012 [21   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-26 12:53:02,012 [21   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: No SecurityTokenValidator available for token: null
+INFO  2018-05-26 12:53:02,026 [21   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-26 12:53:02,029 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) with arguments ((null)) - ModelState is Valid
+INFO  2018-05-26 12:53:02,071 [13   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value Abp.Web.Models.AjaxResponse.
+INFO  2018-05-26 12:53:02,072 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 45.5425ms
+INFO  2018-05-26 12:53:02,072 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 61.0013ms 200 application/json; charset=utf-8
+INFO  2018-05-26 12:53:02,158 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2018-05-26 12:53:02,158 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-26 12:53:02,159 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.4197ms 204 
+INFO  2018-05-26 12:53:02,215 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations application/json 
+INFO  2018-05-26 12:53:02,216 [21   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-26 12:53:02,257 [21   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-26 12:53:02,271 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Sianca.Olh.Sessions.SessionAppService.GetCurrentLoginInformations (Sianca.Olh.Application) with arguments ((null)) - ModelState is Valid
+INFO  2018-05-26 12:53:02,315 [21   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-26 12:53:02,316 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sianca.Olh.Sessions.SessionAppService.GetCurrentLoginInformations (Sianca.Olh.Application) in 61.6699ms
+INFO  2018-05-26 12:53:02,316 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 101.0778ms 200 application/json; charset=utf-8
+INFO  2018-05-26 12:54:06,635 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/TokenAuth/Authenticate  
+INFO  2018-05-26 12:54:06,635 [21   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-26 12:54:06,635 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.3767ms 204 
+INFO  2018-05-26 12:54:06,643 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json 77
+INFO  2018-05-26 12:54:06,643 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-26 12:54:06,659 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-26 12:54:06,770 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Sianca.Olh.Controllers.TokenAuthController.Authenticate (Sianca.Olh.Web.Core) with arguments (Sianca.Olh.Models.TokenAuth.AuthenticateModel) - ModelState is Valid
+INFO  2018-05-26 12:54:07,704 [13   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-26 12:54:07,708 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sianca.Olh.Controllers.TokenAuthController.Authenticate (Sianca.Olh.Web.Core) in 1049.4518ms
+INFO  2018-05-26 12:54:07,708 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1065.3523ms 200 application/json; charset=utf-8
+INFO  2018-05-26 12:54:10,306 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2018-05-26 12:54:10,307 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-26 12:54:10,307 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.7728ms 204 
+INFO  2018-05-26 12:54:10,356 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll application/json 
+INFO  2018-05-26 12:54:10,357 [19   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-26 12:54:10,374 [19   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-05-26 12:54:10,386 [19   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-05-26 12:54:10,666 [22   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-26 12:54:10,668 [22   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) with arguments ((null)) - ModelState is Valid
+INFO  2018-05-26 12:54:10,934 [10   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value Abp.Web.Models.AjaxResponse.
+INFO  2018-05-26 12:54:10,935 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 269.341ms
+INFO  2018-05-26 12:54:10,936 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 580.2677ms 200 application/json; charset=utf-8
+INFO  2018-05-26 12:54:10,955 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2018-05-26 12:54:10,955 [22   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-26 12:54:10,955 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.4248ms 204 
+INFO  2018-05-26 12:54:10,966 [23   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations application/json 
+INFO  2018-05-26 12:54:10,967 [23   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-26 12:54:10,968 [23   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-05-26 12:54:10,968 [23   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-05-26 12:54:10,975 [23   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-26 12:54:10,979 [23   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Sianca.Olh.Sessions.SessionAppService.GetCurrentLoginInformations (Sianca.Olh.Application) with arguments ((null)) - ModelState is Valid
+INFO  2018-05-26 12:54:10,995 [19   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-26 12:54:11,000 [19   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sianca.Olh.Sessions.SessionAppService.GetCurrentLoginInformations (Sianca.Olh.Application) in 25.1459ms
+INFO  2018-05-26 12:54:11,001 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 34.329ms 200 application/json; charset=utf-8
+INFO  2018-05-26 12:54:12,233 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/signalr?enc_auth_token=wNYmO41%2F48SHNstaLVXxHCCre29BZQl1NhC6NM3R3rzpXtPQxVzH6jEzA%2FQhXFN5tu6Fk7pO53uppm1mVXMZgxbyRVz26dnepi%2FFyB6axBY%2B6gq1GL%2BuRQgoiFUCjRN2p8w6LevViwKlHyWZZJZO1DGVSjAi1m2U%2Bog9pkHw9%2FRkp3UZ8A1gKoReYXpvXHc0KFXzGY3aUxaXUOjpNPSTn4LyfFvWqGRq42yefBXGrkBTbBN3h9UXPP%2B25Rfae1rBCQrd8mQ0G3JHpGlVZBMKMD5RSIjWMCe3sPKe05J4ZS4x7ipM9FJHtoJ0Ev%2FfvM08rDbeioKKXNqOF9YqzdChxSnpsH4gsiia6e%2BSRx0RP0s3NPow%2FI%2FnPXS%2FsjiHS4B%2F%2BZIpYX%2FFuxHvrO8g5o%2F2ONHsRA63ZoDvag84JkNeyiFg5Ijwm58iQnrCFQesXtDO0zDFBJOanwPtG3a73%2B%2BobVcGwV50RAofdPyVQsaEhkZKGDWUYqb5TYXek8PZO6%2BMuF5UKITnkNPNxudDKahzOvgsjqmBeabfZoiCnV8Ss%2Fd797uzYjZEi9ggGufGtgXerOLRfn%2Bcon%2FKX5kdfRa%2BLjRKgnvgPLO0GAfW3Z73AjUNc9nr%2BSr7cTKtLcgMX3Yy1Jayz7XhQKA%2FI56xHVZXskZFxuk1QsWNdj5tYvQkW7F2PeYvUt24b%2BNzbvQzmAg%2BAIF4CpR0cdszz6bSKtbnX1h8GqtmkHF5oiFAdpP%2BIYq943Zw%2BAnoFpugTWOjxIojEYtufWfBslFfpBxjgPt7jb2mS%2B2tthE7DVSdHXO%2BvYrt6EZA4oJ8RRZjwqmVZLam8PyM4OGKaUDhuBQoHUTBUciuY7Ay%2BCZ4HyhQsNSob1zttDvlh47gbpWmL81OvHFb%2FlXoamCT2P3Cf32dvCGiNfR0RCZW4%2FswX7Zg6jWE4WgzpGA62VkWHRJVPw9r0KkN8cVmntU%2BzdPbdxCCaUTc8A%3D%3D  
+INFO  2018-05-26 12:54:12,233 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-26 12:54:12,249 [10   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-05-26 12:54:12,249 [10   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-05-26 12:54:12,384 [10   ] .Internal.Transports.WebSocketsTransport - Socket opened.
+INFO  2018-05-26 12:54:12,561 [21   ] .AspNetCore.SignalR.HubConnectionContext - Using HubProtocol 'json'.
+DEBUG 2018-05-26 12:54:12,631 [21   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"3ebead29-df57-43e6-8261-df509f2afff9","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2018-05-26T12:54:12.6184844-03:00","Properties":{}}
+DEBUG 2018-05-26 12:54:12,706 [21   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: 3ebead29-df57-43e6-8261-df509f2afff9
+INFO  2018-05-26 12:54:29,603 [23   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/User/GetAll?SkipCount=0&MaxResultCount=10  
+INFO  2018-05-26 12:54:29,603 [23   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-26 12:54:29,603 [23   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.7511ms 204 
+INFO  2018-05-26 12:54:29,615 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/User/GetRoles  
+INFO  2018-05-26 12:54:29,616 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-26 12:54:29,616 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.6129ms 204 
+INFO  2018-05-26 12:54:29,659 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetAll?SkipCount=0&MaxResultCount=10 application/json 
+INFO  2018-05-26 12:54:29,660 [24   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-26 12:54:29,660 [24   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-05-26 12:54:29,660 [24   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-05-26 12:54:29,671 [23   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetRoles application/json 
+INFO  2018-05-26 12:54:29,671 [23   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-26 12:54:29,674 [23   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-05-26 12:54:29,674 [23   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-05-26 12:54:29,701 [23   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-26 12:54:29,719 [24   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-26 12:54:29,829 [23   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Sianca.Olh.Users.UserAppService.GetRoles (Sianca.Olh.Application) with arguments ((null)) - ModelState is Valid
+INFO  2018-05-26 12:54:29,929 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Sianca.Olh.Users.UserAppService.GetAll (Sianca.Olh.Application) with arguments (Abp.Application.Services.Dto.PagedResultRequestDto) - ModelState is Valid
+INFO  2018-05-26 12:54:29,935 [13   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-26 12:54:29,950 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sianca.Olh.Users.UserAppService.GetRoles (Sianca.Olh.Application) in 248.9683ms
+INFO  2018-05-26 12:54:29,950 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 279.2185ms 200 application/json; charset=utf-8
+INFO  2018-05-26 12:54:30,716 [24   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-26 12:54:30,733 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sianca.Olh.Users.UserAppService.GetAll (Sianca.Olh.Application) in 1013.2186ms
+INFO  2018-05-26 12:54:30,733 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1074.0809ms 200 application/json; charset=utf-8
+INFO  2018-05-26 12:54:32,442 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Role/GetAll?SkipCount=0&MaxResultCount=10  
+INFO  2018-05-26 12:54:32,442 [24   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-26 12:54:32,443 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.2228ms 204 
+INFO  2018-05-26 12:54:32,458 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Role/GetAllPermissions  
+INFO  2018-05-26 12:54:32,458 [24   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-26 12:54:32,459 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.0079ms 204 
+INFO  2018-05-26 12:54:32,477 [23   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Role/GetAll?SkipCount=0&MaxResultCount=10 application/json 
+INFO  2018-05-26 12:54:32,478 [23   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-26 12:54:32,479 [23   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-05-26 12:54:32,479 [23   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-05-26 12:54:32,500 [23   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-26 12:54:32,502 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Role/GetAllPermissions application/json 
+INFO  2018-05-26 12:54:32,502 [21   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-26 12:54:32,503 [21   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-05-26 12:54:32,503 [21   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-05-26 12:54:32,524 [21   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-26 12:54:32,533 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Role/GetAllPermissions  
+INFO  2018-05-26 12:54:32,533 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-26 12:54:32,533 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.0096ms 204 
+INFO  2018-05-26 12:54:32,548 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Role/GetAllPermissions application/json 
+INFO  2018-05-26 12:54:32,549 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-26 12:54:32,550 [13   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-05-26 12:54:32,551 [13   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-05-26 12:54:32,562 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-26 12:54:32,616 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Sianca.Olh.Roles.RoleAppService.GetAllPermissions (Sianca.Olh.Application) with arguments ((null)) - ModelState is Valid
+INFO  2018-05-26 12:54:32,616 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Sianca.Olh.Roles.RoleAppService.GetAllPermissions (Sianca.Olh.Application) with arguments ((null)) - ModelState is Valid
+INFO  2018-05-26 12:54:32,619 [23   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Sianca.Olh.Roles.RoleAppService.GetAll (Sianca.Olh.Application) with arguments (Abp.Application.Services.Dto.PagedResultRequestDto) - ModelState is Valid
+INFO  2018-05-26 12:54:32,649 [21   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-26 12:54:32,649 [24   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-26 12:54:32,657 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sianca.Olh.Roles.RoleAppService.GetAllPermissions (Sianca.Olh.Application) in 133.3579ms
+INFO  2018-05-26 12:54:32,658 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sianca.Olh.Roles.RoleAppService.GetAllPermissions (Sianca.Olh.Application) in 95.5923ms
+INFO  2018-05-26 12:54:32,665 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 117.7418ms 200 application/json; charset=utf-8
+INFO  2018-05-26 12:54:32,666 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 164.0181ms 200 application/json; charset=utf-8
+INFO  2018-05-26 12:54:32,815 [24   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-26 12:54:32,818 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sianca.Olh.Roles.RoleAppService.GetAll (Sianca.Olh.Application) in 317.4506ms
+INFO  2018-05-26 12:54:32,818 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 341.4222ms 200 application/json; charset=utf-8
+INFO  2018-05-26 12:54:37,995 [23   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Role/GetAll?SkipCount=0&MaxResultCount=10  
+INFO  2018-05-26 12:54:37,995 [23   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-26 12:54:37,995 [23   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.4271ms 204 
+INFO  2018-05-26 12:54:37,998 [23   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Role/GetAllPermissions  
+INFO  2018-05-26 12:54:37,998 [23   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-26 12:54:37,999 [23   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.6078ms 204 
+INFO  2018-05-26 12:54:38,007 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Role/GetAllPermissions  
+INFO  2018-05-26 12:54:38,007 [22   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-26 12:54:38,007 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3.9625ms 204 
+INFO  2018-05-26 12:54:38,045 [23   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Role/GetAll?SkipCount=0&MaxResultCount=10 application/json 
+INFO  2018-05-26 12:54:38,046 [23   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-26 12:54:38,047 [23   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-05-26 12:54:38,047 [23   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-05-26 12:54:38,052 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Role/GetAllPermissions application/json 
+INFO  2018-05-26 12:54:38,052 [22   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-26 12:54:38,053 [22   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-05-26 12:54:38,053 [22   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-05-26 12:54:38,056 [23   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-26 12:54:38,059 [23   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Sianca.Olh.Roles.RoleAppService.GetAll (Sianca.Olh.Application) with arguments (Abp.Application.Services.Dto.PagedResultRequestDto) - ModelState is Valid
+INFO  2018-05-26 12:54:38,062 [22   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-26 12:54:38,062 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Role/GetAllPermissions application/json 
+INFO  2018-05-26 12:54:38,063 [24   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-26 12:54:38,064 [24   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-05-26 12:54:38,064 [24   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-05-26 12:54:38,068 [22   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Sianca.Olh.Roles.RoleAppService.GetAllPermissions (Sianca.Olh.Application) with arguments ((null)) - ModelState is Valid
+INFO  2018-05-26 12:54:38,076 [24   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-26 12:54:38,080 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Sianca.Olh.Roles.RoleAppService.GetAllPermissions (Sianca.Olh.Application) with arguments ((null)) - ModelState is Valid
+INFO  2018-05-26 12:54:38,104 [23   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-26 12:54:38,104 [23   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sianca.Olh.Roles.RoleAppService.GetAllPermissions (Sianca.Olh.Application) in 42.4998ms
+INFO  2018-05-26 12:54:38,105 [23   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 52.9322ms 200 application/json; charset=utf-8
+INFO  2018-05-26 12:54:38,125 [23   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-26 12:54:38,126 [23   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sianca.Olh.Roles.RoleAppService.GetAll (Sianca.Olh.Application) in 69.7358ms
+INFO  2018-05-26 12:54:38,126 [23   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 81.1506ms 200 application/json; charset=utf-8
+INFO  2018-05-26 12:54:38,136 [23   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-26 12:54:38,137 [23   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sianca.Olh.Roles.RoleAppService.GetAllPermissions (Sianca.Olh.Application) in 60.123ms
+INFO  2018-05-26 12:54:38,137 [23   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 74.5824ms 200 application/json; charset=utf-8
+INFO  2018-05-26 12:54:38,681 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/User/GetRoles  
+INFO  2018-05-26 12:54:38,681 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/User/GetAll?SkipCount=0&MaxResultCount=10  
+INFO  2018-05-26 12:54:38,681 [19   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-26 12:54:38,681 [24   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-26 12:54:38,681 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.3872ms 204 
+INFO  2018-05-26 12:54:38,681 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.4382ms 204 
+INFO  2018-05-26 12:54:38,727 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetRoles application/json 
+INFO  2018-05-26 12:54:38,727 [23   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetAll?SkipCount=0&MaxResultCount=10 application/json 
+INFO  2018-05-26 12:54:38,728 [22   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-26 12:54:38,728 [23   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-26 12:54:38,728 [23   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-05-26 12:54:38,728 [22   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-05-26 12:54:38,729 [23   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-05-26 12:54:38,729 [22   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-05-26 12:54:38,735 [23   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-26 12:54:38,736 [22   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-26 12:54:38,738 [23   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Sianca.Olh.Users.UserAppService.GetAll (Sianca.Olh.Application) with arguments (Abp.Application.Services.Dto.PagedResultRequestDto) - ModelState is Valid
+INFO  2018-05-26 12:54:38,739 [22   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Sianca.Olh.Users.UserAppService.GetRoles (Sianca.Olh.Application) with arguments ((null)) - ModelState is Valid
+INFO  2018-05-26 12:54:38,769 [23   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-26 12:54:38,770 [23   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sianca.Olh.Users.UserAppService.GetRoles (Sianca.Olh.Application) in 34.0064ms
+INFO  2018-05-26 12:54:38,771 [23   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 43.5711ms 200 application/json; charset=utf-8
+INFO  2018-05-26 12:54:38,788 [24   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-26 12:54:38,789 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sianca.Olh.Users.UserAppService.GetAll (Sianca.Olh.Application) in 53.4748ms
+INFO  2018-05-26 12:54:38,789 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 61.7742ms 200 application/json; charset=utf-8
+INFO  2018-05-26 12:54:48,026 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/User/GetAll?SkipCount=0&MaxResultCount=10  
+INFO  2018-05-26 12:54:48,027 [24   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-26 12:54:48,027 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.432ms 204 
+INFO  2018-05-26 12:54:48,051 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetAll?SkipCount=0&MaxResultCount=10 application/json 
+INFO  2018-05-26 12:54:48,051 [19   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-26 12:54:48,052 [19   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-05-26 12:54:48,052 [19   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-05-26 12:54:48,061 [19   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-26 12:54:48,063 [19   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Sianca.Olh.Users.UserAppService.GetAll (Sianca.Olh.Application) with arguments (Abp.Application.Services.Dto.PagedResultRequestDto) - ModelState is Valid
+INFO  2018-05-26 12:54:48,077 [22   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-26 12:54:48,078 [22   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Sianca.Olh.Users.UserAppService.GetAll (Sianca.Olh.Application) in 16.7272ms
+INFO  2018-05-26 12:54:48,078 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 26.7452ms 200 application/json; charset=utf-8
+DEBUG 2018-05-26 17:25:42,951 [22   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: 3ebead29-df57-43e6-8261-df509f2afff9
+INFO  2018-05-26 17:25:42,996 [19   ] .Internal.Transports.WebSocketsTransport - Socket closed.
+INFO  2018-05-26 17:25:43,006 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 16290772.3708ms 101 
