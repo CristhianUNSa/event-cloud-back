@@ -16,9 +16,10 @@ using System;
 namespace Sianca.Olh.Migrations
 {
     [DbContext(typeof(OlhDbContext))]
-    partial class OlhDbContextModelSnapshot : ModelSnapshot
+    [Migration("20180528013317_EventsAndRegistrations")]
+    partial class EventsAndRegistrations
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
